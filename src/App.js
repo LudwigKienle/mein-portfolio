@@ -253,9 +253,9 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500">
           <p>&copy; {new Date().getFullYear()} [Ihr Name]. Alle Rechte vorbehalten.</p>
           <div className="flex justify-center space-x-6 mt-4">
-              <a href="#" className="hover:text-purple-400 transition-colors">Twitter</a>
-              <a href="#" className="hover:text-purple-400 transition-colors">Instagram</a>
-              <a href="#" className="hover:text-purple-400 transition-colors">LinkedIn</a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors">Twitter</a>
+<a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors">Instagram</a>
+<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors">LinkedIn</a>
           </div>
         </div>
       </footer>
