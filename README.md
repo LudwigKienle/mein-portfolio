@@ -1,4 +1,50 @@
-# Getting Started with Create React App
+# Mein Portfolio – KI Video Studio
+
+Dieses Portfolio enthält nun ein interaktives **KI Video Studio**, mit dem Sie Clips über die
+Replicate-API bearbeiten können. Die Oberfläche kombiniert kreative Prompts mit einer Referenz-Video-URL
+und stellt nach erfolgreicher Generierung die Ergebnisse direkt im Browser dar.
+
+## Einrichtung
+
+1. Installieren Sie die Abhängigkeiten:
+
+   ```bash
+   npm install
+   ```
+
+2. Legen Sie im Projektstamm eine `.env`-Datei an und hinterlegen Sie Ihr Replicate API-Token:
+
+   ```bash
+   REACT_APP_REPLICATE_API_TOKEN=sk_replica_xxx
+   ```
+
+   > **Hinweis:** Tokens sollten niemals eingecheckt oder öffentlich geteilt werden. Legen Sie die Datei nur lokal an.
+
+3. Starten Sie die Entwicklungsumgebung:
+
+   ```bash
+   npm start
+   ```
+
+4. Öffnen Sie [http://localhost:3000](http://localhost:3000), um das Portfolio mit dem Video Editor zu testen.
+
+## Replicate Modell-Versionen
+
+Der Editor erwartet eine gültige **Versions-ID** eines Replicate-Modells, das Video- oder Bild-zu-Video-Funktionen
+unterstützt. Sie finden die ID auf der jeweiligen Modellseite unter „Versions“. Beispiel:
+
+```
+7de2ea26c616d5bf2245ad0d3c3c63c1ec6609d6cd9536cdac38916d3c8dc55c
+```
+
+Tragen Sie die ID im Formularfeld „Replicate Modell-Version“ ein. Für verschiedene Workflows können Sie mehrere IDs
+in einer persönlichen Dokumentation ablegen und bei Bedarf wechseln.
+
+## Standard-Befehle
+
+Dieses Projekt wurde mit [Create React App](https://github.com/facebook/create-react-app) erstellt. Die folgenden Skripte stehen weiterhin zur Verfügung:
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
